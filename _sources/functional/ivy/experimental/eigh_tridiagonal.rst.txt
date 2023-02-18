@@ -2,6 +2,12 @@ eigh_tridiagonal
 ================
 
 .. autofunction:: ivy.functional.ivy.experimental.eigh_tridiagonal
+
+.. autofunction:: ivy.array.array_methods.eigh_tridiagonal
+
+.. autofunction:: ivy.container.container_methods.eigh_tridiagonal
+
+.. autofunction:: ivy.container.container_methods.static_eigh_tridiagonal
 |
 | **Supported Frameworks:**
 
@@ -18,3 +24,15 @@ eigh_tridiagonal
 
 .. |numpy_logo| image:: ../../../logos/supported/numpy_logo.png
    :target: https://numpy.org
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: -1
+   :caption: eigh_tridiagonal
+
+   eigh_tridiagonal/eigh_tridiagonal_functional.rst
+   eigh_tridiagonal/eigh_tridiagonal_array.rst
+   eigh_tridiagonal/eigh_tridiagonal_container.rst
+   eigh_tridiagonal/static_eigh_tridiagonal_container.rst
+
